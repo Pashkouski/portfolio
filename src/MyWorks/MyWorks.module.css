@@ -1,0 +1,27 @@
+.skillsWrapper {
+    padding: 20px 0;
+    background-color: rgba(40, 44, 52, 0.67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    background-color: white;
+
+}
+
+.container h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}

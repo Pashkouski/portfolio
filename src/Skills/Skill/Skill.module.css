@@ -1,0 +1,16 @@
+.SkillsWrapper {
+    padding-top: 20px;
+    background-color: rgba(40, 44, 52, 0.67);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: white;
+
+}

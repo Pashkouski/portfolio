@@ -1,0 +1,24 @@
+.SkillWrapper {
+    width: 17em;
+    border: 1px solid red;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: space-evenly;
+}
+
+.SkillWrapper svg{
+
+
+}
+
+
+.SkillWrapper h3{
+
+
+}
+
+
+.info {
+
+}
