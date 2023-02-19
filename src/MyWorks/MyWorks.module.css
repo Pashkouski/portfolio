@@ -1,5 +1,4 @@
 .skillsWrapper {
-    padding: 20px 0;
     background-color: rgba(40, 44, 52, 0.67);
     display: flex;
     align-items: center;
@@ -8,7 +7,7 @@
 
 .container {
     width: 90%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -19,9 +18,10 @@
 }
 
 
-.skills {
+.work {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
+
 }

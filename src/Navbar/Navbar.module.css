@@ -1,0 +1,13 @@
+.NavbarWrapper {
+    border: 1px solid red;
+    margin-right: 5.85%;
+}
+
+
+.container {
+    width: 85%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}

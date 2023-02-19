@@ -1,13 +1,26 @@
-.NavbarWrapper {
-    border: 1px solid red;
-    margin-right: 5.85%;
+.skillsWrapper {
+    background-color: rgba(40, 44, 52, 0.67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    background-color: white;
+
+}
+
+.container h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 
-.container {
-    width: 85%;
-    align-items: center;
+.skills {
     display: flex;
-    justify-content: space-between;
-    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
 }

@@ -1,0 +1,30 @@
+.mainWrapper {
+    border: 1px solid rebeccapurple;
+    background-color: #282c34;
+    height: 93vh;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+
+}
+
+.text {
+    max-width: 25rem;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+}
+
+.photos {
+    padding: 1.5rem;
+
+    max-width: 25rem;
+    background-color: burlywood;
+    height: 400px;
+}

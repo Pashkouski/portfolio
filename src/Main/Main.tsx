@@ -1,35 +1,20 @@
 import React from 'react';
-import {NavLink, Route} from "react-router-dom";
+import s from './Main.module.css'
 
-const Navbar = () => {
+const Main = () => {
     return (
-            <nav>
-                <ul>
-                    <li>
-                        <NavLink to='/Main'>
-                            <span>Main</span>
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to='/Skills'>
-                            <span>Skills</span>
-                        </NavLink>
-                    </li>
-
-                    <li>
-                        <NavLink to='/Projects'>
-                            <span>Projects</span>
-                        </NavLink>
-                    </li>
-
-                    <li>
-                        <NavLink to='/Contact'>
-                            <span>Contact</span>
-                        </NavLink>
-                    </li>
-                </ul>
-            </nav>
-    )
+        <div className={s.mainWrapper}>
+            <div className={s.text}>
+                <span>Lorem ipsum dolor. lorem</span>
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum.</p>
+            </div>
+            <div className={s.photos}>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi assumenda atque blanditiis corporis deserunt doloribus ea expedita impedit incidunt itaque iure labore placeat quaerat qui repellat, tenetur ut voluptatum?</span>
+                <img src="#" alt=""/>
+            </div>
+        </div>
+    );
 };
 
-export default Navbar;
+export default Main;

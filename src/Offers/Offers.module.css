@@ -1,0 +1,31 @@
+.offersWrapper {
+    background-color: rgba(40, 44, 52, 0.67);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    background-color: gray;
+}
+
+
+.contact {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact button {
+    display: inline-block;
+    padding: 1rem 6rem;
+    background-color: #424257;
+    color: white;
+}
+.contact h4 {
+    padding: 0.6rem 15rem;
+    background-color: #424257;
+    color: white;
+}

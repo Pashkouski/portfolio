@@ -1,29 +1,21 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
 import s from './Skills.module.css'
+import Skill from "./Skill/Skill";
 
-const Navbar = () => {
+const Skills = () => {
     return (
-            <div className={s.NavbarWrapper}>
-                <div className={s.container}>
-                        <NavLink to='/Main'>
-                            <span>Main</span>
-                        </NavLink>
-
-                        <NavLink to='/Skills'>
-                            <span>Skills</span>
-                        </NavLink>
-
-                        <NavLink to='/Projects'>
-                            <span>Projects</span>
-                        </NavLink>
-
-                        <NavLink to='/Contact'>
-                            <span>Contact</span>
-                        </NavLink>
+        <div className={s.skillsWrapper}>
+            <div className={s.container}>
+                <h4>My skills</h4>
+                <div className={s.skills}>
+                    <Skill/>
+                    <Skill/>
+                    <Skill/>
                 </div>
             </div>
+
+        </div>
     )
 }
 
-export default Navbar;
+export default Skills;

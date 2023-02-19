@@ -1,49 +1,29 @@
 import React from 'react';
-import {NavLink, Route} from "react-router-dom";
+import {NavLink} from "react-router-dom";
+import s from './Navbar.module.css'
 
 const Navbar = () => {
     return (
-        <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores at distinctio dolor doloribus
-            eligendi expedita explicabo fuga fugit ipsum iure laboriosam, minima minus molestias natus nemo nisi
-            repellendus, vero.
+            <div className={s.NavbarWrapper}>
+                <div className={s.container}>
+                        <NavLink to='/Main'>
+                            <span>Main</span>
+                        </NavLink>
 
-            {/*<nav>*/}
-            {/*    <ul>*/}
-            {/*        <li>*/}
-            {/*            <NavLink to='/Main'>*/}
-            {/*                <span>Main</span>*/}
-            {/*            </NavLink>*/}
-            {/*        </li>*/}
-            {/*        <li>*/}
-            {/*            <NavLink to='/Main'>*/}
-            {/*                <span>Skills</span>*/}
-            {/*            </NavLink>*/}
-            {/*        </li>*/}
+                        <NavLink to='/Skills'>
+                            <span>Skills</span>
+                        </NavLink>
 
-            {/*        <li>*/}
-            {/*            <NavLink to='/Main'>*/}
-            {/*                <span>Projects</span>*/}
-            {/*            </NavLink>*/}
-            {/*        </li>*/}
+                        <NavLink to='/Projects'>
+                            <span>Projects</span>
+                        </NavLink>
 
-            {/*        <li>*/}
-            {/*            <NavLink to='/Main'>*/}
-            {/*                <span>Contact</span>*/}
-            {/*            </NavLink>*/}
-            {/*        </li>*/}
-            {/*    </ul>*/}
-            {/*</nav>*/}
-                <Route
-                    path='/messages'
-                    element={
-                        <Main />
-                    }
-                />
-
-        </div>
+                        <NavLink to='/Contact'>
+                            <span>Contact</span>
+                        </NavLink>
+                </div>
+            </div>
     )
-        ;
-};
+}
 
 export default Navbar;
