@@ -1,12 +1,12 @@
 .offersWrapper {
-    background-color: rgba(40, 44, 52, 0.67);
+    background-color: rgba(40, 50, 52, 0.67);
     display: flex;
     justify-content: center;
 }
 
 .container {
     width: 90%;
-    background-color: gray;
+    background-color: rgb(124, 123, 123);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,11 +25,33 @@
 
 .contact button {
     display: inline-block;
-    padding: 0.6rem 5.6rem;
+    padding: 1rem 6rem;
     background-color: #424257;
     color: white;
+    margin-top: 1.5rem;
 }
+
 .contact h4 {
     background-color: #424257;
     color: white;
+    padding: 1rem;
 }
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 60vmin;
+    border: 1px solid red;
+    padding: 0.1rem;
+    margin: 1rem;
+
+}
+
+.block div {
+    min-width: 8vmin;
+    height: 8vmin;
+    background-color: #61dafb;
+    padding-bottom: 1px;
+}
+

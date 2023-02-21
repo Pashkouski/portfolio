@@ -6,3 +6,12 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+@media (max-width: 1076px) {
+    .header {
+        padding: 0.01rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

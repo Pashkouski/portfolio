@@ -6,6 +6,8 @@ import Main from "./Main/Main";
 import Skills from "./Skills/Skills";
 import MyWorks from "./MyWorks/MyWorks";
 import Offers from "./Offers/Offers";
+import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 function App() {
     return (
@@ -18,6 +20,8 @@ function App() {
                         <Skills/>
                         <MyWorks/>
                         <Offers/>
+                        <Contact/>
+                        <Footer/>
                     </div>
                 </div>
             </div>
