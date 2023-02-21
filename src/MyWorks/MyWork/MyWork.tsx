@@ -5,12 +5,16 @@ import {NavLink} from "react-router-dom";
 const MyWork = () => {
     return (
         <div className={s.SkillWrapper}>
-            <NavLink to={'/work2'}>
-                <div className={s.inner}>
-                    <img className={s.img} src="https://htstatic.imgsmail.ru/pic_image/0efda7a7a24673153e86521d430076e3/840/526/2269298/" alt=""/>
-                    <button>more details</button>
-                </div>
-            </NavLink>
+            <div className={s.inner}>
+                <NavLink to={'/work2'}>
+                    <div>
+{/*                        <img className={s.img}
+                             src="https://htstatic.imgsmail.ru/pic_image/0efda7a7a24673153e86521d430076e3/840/526/2269298/"
+                             alt=""/>*/}
+                        <button>more details</button>
+                    </div>
+                </NavLink>
+            </div>
             <div className={s.projectName}> Lorem ipsum dolor sit amet.</div>
             <div className={s.info}>
                 <i>
