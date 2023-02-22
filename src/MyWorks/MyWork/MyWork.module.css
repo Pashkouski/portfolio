@@ -20,16 +20,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 
-.wrapper button {
+.inner button {
     max-height: content-box;
     padding: 5px;
-    background-color: black;
-    border: 3px solid red;
+    background-color: #424257;
     color: red;
-    /*добавить медиазапрос*/
 }
 
