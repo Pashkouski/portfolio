@@ -23,7 +23,8 @@ const MyWork = () => {
                     ratione
                     repellendus, repudiandae similique tempora! Ipsam!
                 </i>
-            </div>
+
+                 </div>
         </div>
     );
 };
