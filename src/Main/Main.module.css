@@ -1,7 +1,11 @@
 .mainWrapper {
     border: 1px solid rebeccapurple;
     background-color: #282c34;
-    height: 93vh;
+    position: relative;
+    }
+
+.mainContainer {
+    position: relative;
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -9,6 +13,7 @@
     align-items: center;
     gap: 1.5rem;
     padding: 1rem;
+    height: 93vh;
 }
 
 .text {
@@ -40,7 +45,6 @@
     .photos {
         max-width: 25rem;
         max-height: 70vh;
-
     }
     .text {
         max-width: 25rem;
@@ -61,7 +65,6 @@
         margin: 0.2em;
         padding: 0;
     }
-
 }
 
 

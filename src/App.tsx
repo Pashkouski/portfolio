@@ -15,7 +15,7 @@ function App() {
             <div className="App">
                 <div className='container'>
                     <Header/>
-                    <div >
+                    <div style={{position: "relative"}}>
                         <Main/>
                         <Skills/>
                         <MyWorks/>

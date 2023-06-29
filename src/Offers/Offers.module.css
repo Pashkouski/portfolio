@@ -2,6 +2,7 @@
     background-color: rgba(40, 44, 52, 0.67);
     display: flex;
     justify-content: center;
+    position: relative
 }
 
 .container {

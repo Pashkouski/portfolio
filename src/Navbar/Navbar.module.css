@@ -1,6 +1,6 @@
 .NavbarWrapper {
-    border: 1px solid red;
     margin-right: 5.85%;
+
 }
 
 
@@ -10,6 +10,16 @@
     display: flex;
     justify-content: space-between;
     gap: 2em;
+
+}
+.container span {
+    padding: 15px 0;
+    font-size: 15px;
+    display: inline-block;
+    color: #fdfeff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 @media (max-width: 1076px) {

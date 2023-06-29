@@ -1,0 +1,14 @@
+@import "../sass/variables";
+@mixin text($fontSize, $fontWeight, $fontFamily, $color) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  font-family: $fontFamily;
+  color: $color;
+}
+
+@mixin flex($display, $flexDirection, $justifyContent, $alignItems) {
+  display: $display;
+  flex-direction: $flexDirection;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
