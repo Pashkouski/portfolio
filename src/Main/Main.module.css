@@ -1,8 +1,10 @@
 .mainWrapper {
     border: 1px solid rebeccapurple;
-    background-color: #282c34;
+    background-color: #ffffff;
+    /*    background-color: rgb(42, 42, 56);*/
     position: relative;
-    }
+}
+
 
 .mainContainer {
     position: relative;
@@ -14,6 +16,8 @@
     gap: 1.5rem;
     padding: 1rem;
     height: 93vh;
+    border: 2px solid rgb(42, 42, 56);
+
 }
 
 .text {
@@ -24,6 +28,7 @@
     justify-content: space-evenly;
     text-align: center;
     margin: 0.2em;
+    box-shadow: 0 0 10em rgb(86, 94, 119);
 }
 
 
@@ -33,6 +38,7 @@
     background-color: burlywood;
     width: 300px;
     height: 400px;
+    box-shadow: 0 0 10em rgb(86, 94, 119);
 }
 
 
@@ -42,10 +48,12 @@
         align-items: center;
         flex-direction: column;
     }
+
     .photos {
         max-width: 25rem;
         max-height: 70vh;
     }
+
     .text {
         max-width: 25rem;
         max-height: 20vh;
@@ -53,14 +61,17 @@
         flex-direction: column;
         justify-content: flex-start;
     }
+
     .text p {
         margin: 0.2em;
         padding: 0;
     }
+
     .text h2 {
         margin: 0.2em;
         padding: 0;
     }
+
     .text span {
         margin: 0.2em;
         padding: 0;
